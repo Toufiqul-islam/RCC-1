@@ -1,0 +1,88 @@
+.cdath{
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    font-size: 40px;
+    text-shadow: 5px;
+}
+
+.flex-box{
+    display: flex;
+    align-items: wrap;
+    justify-content:space-around;
+    background-color: black;
+}
+:hover.flex-box>div>a{
+    padding: 20px;
+    color: brown;
+}
+:hover.flex-box>div>i{
+    padding: 20px;
+    color: brown;
+}
+
+.flex-box>div>a::before{
+    content: (T);
+    color: red;
+}
+.flex-box>div>a{
+    color: white;
+    font-size: 25px;
+}
+.flex-box>div>a:hover{
+    color: brown;
+}
+.name{
+    text-transform: uppercase;
+}
+.email{
+    text-transform: lowercase;
+    text-decoration:underline;
+}
+.icon{
+    font-size: 25px;
+    color: aquamarine;
+}
+
+
+
+
+
+.clearfix{
+    border: 5px solid blue;
+    overflow:auto;
+}
+.ar{
+    text-indent: 60px;
+    font: 20px arial, italic;
+
+}
+.img{
+    float: right;
+    transition-timing-function:ease;
+}
+.img:hover{
+    width: 300px;
+    height: 250px;
+    transform:
+}
+p{
+    font: italic small-caps 12px Georgia, serif;
+}
+.i{
+    font-size: 30px;
+}
+.x{
+    width: 30px;
+}
+.div{
+    display: flex;
+}
+
+
+
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 1000px;
+}

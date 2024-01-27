@@ -1,0 +1,27 @@
+.flex-box{
+    display: flex;
+    align-items: wrap;
+    justify-content:space-around;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.flex-box>div>a::before{
+    content: (T);
+    color: red;
+}
+.flex-box>div>a{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.flex-box>div>a:hover{
+    background-color: black;
+}
+.flex-box>div>i:hover{
+    background-color: black;
+}
+.icon{
+    color:white;
+}
+.icon{
+    font-size: 25px;
+}

@@ -1,0 +1,38 @@
+.body{background-color: aqua;
+background-image: url(../Image/free-nature-images.jpg);
+}
+.ID{text-align: center; 
+    background-image: radial-gradient(red 15%, green 35%, blue 30%); 
+    border: 5px outset black }
+.table{ 
+    text-align: center
+ }
+ .image{ position:
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    border-radius: 15px; 
+
+ }
+ .image .tage {
+    position:relative;
+ }
+
+:hover.image{
+ height:300px; 
+ width: 375px;
+}
+
+span{ 
+    display:block; 
+    background-color: brown; 
+    max-width: 300px; 
+    text-align: left;
+}
+.task{
+    position:relative;
+}
+.task .ta {
+    position:absolute;
+    top: -5px;%
+}

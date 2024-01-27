@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid;
+            width: 500px;
+            height: 500pz;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+        .box::before{
+            content: "";
+            position: absolute;
+            width: 1000px;
+            height: 2px;
+            background-color: aquamarine;
+            left:-180px;
+            margin-top: 20px;
+        }
+        .box::after{
+            content: "";
+            position: absolute;
+            width: 350px;
+            height: 2px;
+            background-color: aquamarine;
+            left:-180px;
+            margin-top: 20px;
+        }
+        .s1{
+            position: relative;
+        }
+        .s1::after{
+            content:"";
+            position: absolute;
+            width: 1000px;
+            height: 2px;
+            background-color: aquamarine;
+            left:-180px;
+            margin-top: 20px;
+        }
+        h2{
+            position: relative;
+        }
+        .h2::after{
+            content:"";
+            position: absolute;
+            width: 1000px;
+            height: 2px;
+            background-color: aquamarine;
+            left:-180px;
+            margin-top: 20px;
+        }
+        .s1{
+            position: relative;
+        }
+        .s1::after{
+            content:"";
+            position: absolute;
+            width: 1000px;
+            height: 2px;
+            background-color: aquamarine;
+            left:-180px;
+            margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <div class="box">
+    <span class="s1"></span>
+    <h>Wedding collection </h>
+    <h2> heoolw workd</h2>
+    <span class="s2"></span>
+    </div>
+</body>
+</html>
