@@ -1,4 +1,8 @@
-body{
-    margin: 0%;
-    background-image: url("../Image/milky-way-2695569_1280.jpg");
+.image{
+position: absolute;
+top: 0px;
+
+}
+.table{
+position:relative;
 }

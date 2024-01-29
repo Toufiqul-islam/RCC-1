@@ -1,0 +1,58 @@
+.top{
+    text-align: end;
+    text-decoration:aliceblue;
+}
+.top>a{
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+}
+.flex-box{
+    display: flex;
+    align-items: wrap;
+    justify-content:space-around;
+    background-image: url(../Image/apex2.jpeg) ;
+}
+.flex-box>a{
+    color:aliceblue;
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+}
+video{
+    position: absolute;
+    top:300px;
+    right: 0px;
+}
+.flex-box>div>a::before{
+    content: (T);
+    color: red;
+}
+.flex-box>div>a{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+.flex-box>div>a:hover{
+    background-color: black;
+}
+.flex-box>div>i:hover{
+    background-color: black;
+}
+.icon{
+    color:white;
+}
+.icon{
+    font-size: 25px;
+}
+img{
+    height:50px;
+}
+.flaex{
+    display:flex;
+    align-items: wrap;
+    justify-content: space-around;
+    background-color: aqua;
+
+}

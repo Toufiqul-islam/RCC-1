@@ -1,0 +1,40 @@
+.flex-box{
+    display: flex;
+    align-items: wrap;
+    justify-content:space-around;
+    background-color: black;
+}
+:hover.flex-box>div>a{
+    padding: 20px;
+    color: brown;
+}
+:hover.flex-box>div>i{
+    padding: 20px;
+    color: brown;
+}
+
+.flex-box>div>a::before{
+    content: (T);
+    color: red;
+}
+.flex-box>div>a{
+    color: white;
+    font-size: 25px;
+}
+.flex-box>div>a:hover{
+    color: brown;
+}
+.name{
+    text-transform: uppercase;
+}
+.email{
+    text-transform: lowercase;
+    text-decoration:underline;
+}
+.icon{
+    font-size: 25px;
+    color: aquamarine;
+}
+body{
+    background-color: aqua;
+}
