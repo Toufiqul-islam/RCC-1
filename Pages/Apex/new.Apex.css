@@ -26,7 +26,7 @@ body{
     background-color: black;
 }
 .header{
-    background-image: url('../Image/apex2.jpeg');
+    background-image: url('./apex2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 70px;
@@ -158,3 +158,54 @@ body{
     text-decoration: none;
     font-size: 15px;
 }
+.poster{
+    position:relative;
+    width: 100%;
+    margin: 0%;
+}
+.mark{
+    position:absolute;
+    width: 20%;
+    top: 05%;
+    right: 05%;
+}
+.detals{
+    position:absolute;
+    top:66%;
+    right:05%;
+    text-align: right;
+}
+.detals>p{
+    font-size: 20px;;
+}
+.tdesigned{
+    font-size: 30px;
+}
+.a>button>a{
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    width: 90%;
+    margin-left: 05%;
+    margin-right: 05%;
+}
+.lmain{
+    margin-top: 3%;
+    padding-left: 35%;
+    border-top: 4px solid black;
+    padding-bottom: 3%;
+    border-left: 4px solid black;
+}
+.head{
+    width:30% ;
+    text-align: center;
+}
+.rmain{
+    margin-top: 3%;
+    padding-left: 35%;
+    border-top: 4px solid black;
+    padding-bottom: 3%;
+    border-right: 4px solid black;
+}
+
